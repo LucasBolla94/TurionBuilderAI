@@ -10,15 +10,27 @@
 
 ## Visão geral das fases
 
-| Fase | Nome | Entregável principal | Prioridade |
-|---|---|---|---|
-| 1 | Landing Page | Site público de conversão | CRÍTICO |
-| 2 | Auth | Login / Registro / Onboarding | CRÍTICO |
-| 3 | Dashboard | Lista de projetos + criação | ALTO |
-| 4 | Workspace | IDE + Chat de agente + Preview | ALTO |
-| 5 | Planos & Billing | Pricing page + gestão de créditos | ALTO |
-| 6 | Configurações & Perfil | Account, billing, tokens | MÉDIO |
-| 7 | Polish & Produção | SEO, performance, PWA, dark mode | MÉDIO |
+| Fase | Nome | Entregável principal | Prioridade | Status |
+|---|---|---|---|---|
+| 1 | Landing Page | Site público de conversão | CRÍTICO | ✅ CONCLUÍDO |
+| 2 | Auth | Login / Registro / Onboarding | CRÍTICO | ✅ CONCLUÍDO |
+| 3 | Dashboard | Lista de projetos + criação | ALTO | pendente |
+| 4 | Workspace | IDE + Chat de agente + Preview | ALTO | pendente |
+| 5 | Planos & Billing | Pricing page + gestão de créditos | ALTO | pendente |
+| 6 | Configurações & Perfil | Account, billing, tokens | MÉDIO | pendente |
+| 7 | Polish & Produção | SEO, performance, PWA, dark mode | MÉDIO | pendente |
+
+---
+
+## ✅ FASE 1 – Landing Page (`turion.network`) — CONCLUÍDO em 2026-03-12
+
+> Deployado em https://turion.network — Next.js porta 3001, PM2, nginx, SSL Let's Encrypt.
+> Componentes: Navbar, Hero (prompt + mockup), HowItWorks, Features, Pricing, Footer.
+
+## FASE 2 – Auth (Login / Registro / Onboarding) — CONCLUÍDO em 2026-03-12
+
+> Páginas: /login, /register, /onboarding. Stack: NextAuth.js + JWT + Prisma + PostgreSQL.
+> Middleware de proteção de rotas. Onboarding de 3 passos com 500 créditos de boas-vindas.
 
 ---
 
